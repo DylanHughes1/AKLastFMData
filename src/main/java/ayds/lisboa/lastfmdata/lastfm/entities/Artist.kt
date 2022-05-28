@@ -1,22 +1,9 @@
 package ayds.lisboa.lastfmdata.lastfm.entities
 
-interface Artist {
-    val name: String
-    val url: String
-    val info: String
-    var isLocallyStored: Boolean
-}
-
 data class LastFMArtist(
-    override val name: String,
-    override val url: String,
-    override val info: String,
-    override var isLocallyStored: Boolean = false
-) : Artist
-
-object EmptyArtist : Artist {
-    override val name: String = ""
-    override val url: String = ""
-    override val info: String = ""
-    override var isLocallyStored: Boolean = false
-}
+    val name: String,
+    val url: String,
+    val info: String,
+    val sourceLogoUrl: String = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Lastfm_logo.svg/320px-Lastfm_logo.svg.png",
+    var isLocallyStored: Boolean = false
+)

@@ -1,4 +1,4 @@
-package ayds.lisboa.songinfo.moredetails.home.model.repository.external.lastfm
+package ayds.lisboa.lastfmdata.lastfm
 
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory

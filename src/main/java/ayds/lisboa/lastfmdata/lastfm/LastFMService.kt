@@ -1,7 +1,6 @@
 package ayds.lisboa.lastfmdata.lastfm
 
-import ayds.lisboa.songinfo.moredetails.home.model.entities.Artist
-import ayds.lisboa.songinfo.moredetails.home.model.entities.LastFMArtist
+import ayds.lisboa.lastfmdata.lastfm.entities.LastFMArtist
 import retrofit2.Response
 
 interface LastFMService {

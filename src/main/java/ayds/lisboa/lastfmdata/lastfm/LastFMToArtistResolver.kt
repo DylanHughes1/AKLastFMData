@@ -1,6 +1,6 @@
 package ayds.lisboa.lastfmdata.lastfm
 
-import ayds.lisboa.songinfo.moredetails.home.model.entities.LastFMArtist
+import ayds.lisboa.lastfmdata.lastfm.entities.LastFMArtist
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 
