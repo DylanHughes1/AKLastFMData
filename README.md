@@ -9,8 +9,8 @@ Debe instanciarse la clase `ayds.lisboa.lastfmdata.lastfm.LastFMServiceImpl` que
 - Si no encuentra un artista o se produce una excepción, devuelve `null`.
 
 La entidad `LastFMArtist` cuenta con las propiedades:
-- `name: String`
-- `description: String`
-- `infoUrl: String`
-- `source: String`
-- `sourceLogoUrl: String`
+- `name: String`: nombre del artista buscado,
+- `description: String`: biografía del artista,
+- `infoUrl: String`: url a la biografía del artista en LastFM,
+- `source: String`: nombre de la fuente (LastFM),
+- `sourceLogoUrl: String`: logo de LastFM
