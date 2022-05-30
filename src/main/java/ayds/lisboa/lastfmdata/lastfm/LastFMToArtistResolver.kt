@@ -19,7 +19,7 @@ internal class JsonToArtistResolver : LastFMToArtistResolver {
         try {
             serviceData?.getArtistItem()?.let { item ->
                 LastFMArtist(
-                    item.getName(), item.getUrl(), item.getBioContent()
+                    item.getName(), item.getBioContent(), item.getUrl()
                 )
             }
         } catch (e: Exception) {
