@@ -12,3 +12,4 @@ La entidad `LastFMArtist` cuenta con las propiedades:
 - `name: String`: nombre del artista buscado,
 - `description: String`: biografía del artista,
 - `infoUrl: String`: url a la biografía del artista en LastFM,
+`sourceLogoUrl: String`: logo de LastFM
